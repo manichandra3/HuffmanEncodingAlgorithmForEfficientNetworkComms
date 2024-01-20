@@ -8,9 +8,6 @@ This Java project implements the Huffman encoding algorithm, a popular technique
 - [Usage](#usage)
 - [Implementation Details](#implementation-details)
 - [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -42,7 +39,7 @@ Refer to the [example](#example) section for a simple demonstration.
 The core functionality is encapsulated in the `HuffmanEncoder` class, which includes methods for compressing and decompressing data. The `Node` class is a nested class representing nodes in the Huffman tree.
 The resulting encoded data is stored in the `HuffmanEncoderResult` class.
 
-### Example Usage
+### Example
 
 ```java
 public static void main(String[] args) {
@@ -53,3 +50,4 @@ public static void main(String[] args) {
     System.out.println("Encoded: " + result.getEncodedData());
     System.out.println("Decoded: " + encoder.decompress(result));
 }
+
