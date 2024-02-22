@@ -51,5 +51,5 @@ public static void main(String[] args) {
     System.out.println("Decoded: " + encoder.decompress(result));
 }
 ```
-### More about the history of plaintext encoding - Plain Text - [Dylan Beattie - NDC Copenhagen 2022](https://www.youtube.com/watch?v=gd5uJ7Nlvvo)
+### More about the history of plaintext encoding - [Dylan Beattie - NDC Copenhagen 2022](https://www.youtube.com/watch?v=gd5uJ7Nlvvo)
 
